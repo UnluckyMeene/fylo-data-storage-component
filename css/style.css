@@ -1,11 +1,12 @@
 /** Globals **/
 body {
- background-color: hsl(229, 57%, 11%);    
+    background-color: hsl(229, 57%, 11%);    
+    font-family: 'Raleway', sans-serif;
 }
 
 @media screen and (min-width: 1440px) {
     #data-storage-component {
-        background: url("../img/bg-desktop.svg") no-repeat bottom left;
+        background: url("../img/bg-desktop.svg") no-repeat right;
         background-size: cover;
     }
     
@@ -48,5 +49,25 @@ body {
     .progress-bar {
         background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
         border-radius: 7px;
+    }
+    
+    .message {
+        margin-top: -125px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 87% 76%, 0% 75%);
+        background-color: #ffffff;
+        border-bottom-left-radius: 10px;
+        color: black;
+        float: right;
+        height: 100px;
+        width: 180px;
+    }
+    
+    .message span {
+        color: hsl(229, 7%, 55%);
+    }
+    
+    .message strong {
+        font-size: 30px;
+        color: hsl(229, 57%, 11%);
     }
 }
