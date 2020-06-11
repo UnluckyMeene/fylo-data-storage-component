@@ -52,7 +52,7 @@ body {
     }
     
     .message {
-        margin-top: -125px;
+        margin-top: -95px;
         clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 87% 76%, 0% 75%);
         background-color: #ffffff;
         border-bottom-left-radius: 10px;
