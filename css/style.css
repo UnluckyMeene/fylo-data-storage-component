@@ -1,0 +1,52 @@
+/** Globals **/
+body {
+ background-color: hsl(229, 57%, 11%);    
+}
+
+@media screen and (min-width: 1440px) {
+    #data-storage-component {
+        background: url("../img/bg-desktop.svg") no-repeat bottom left;
+        background-size: cover;
+    }
+    
+    #blocco-n1 {
+        background-color: hsl(228, 56%, 26%);
+        padding: 40px;
+        border-radius: 10px 80px 10px 10px;
+        box-shadow: 7px 7px 11px 0px hsl(229, 57%, 11%);
+    }
+    
+    #icon-container {
+        margin-top: 35px;
+    }
+    
+    .icon {
+        background-color: hsl(229, 57%, 11%);
+        text-align: center;
+        float: left;
+        margin-right: 15px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    #blocco-n2 {
+        background-color: hsl(228, 56%, 26%);
+        padding: 40px;
+        margin-left: 30px;
+        border-radius: 10px;
+        box-shadow: 7px 7px 11px 0px hsl(229, 57%, 11%);
+    }
+    
+    .progress {
+        background-color: hsl(229, 57%, 11%);
+        padding: 2px;
+        border-radius: 7px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .progress-bar {
+        background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+        border-radius: 7px;
+    }
+}
