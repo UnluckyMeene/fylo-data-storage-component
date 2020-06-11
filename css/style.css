@@ -4,6 +4,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+#blocco-n1 {
+    background-color: hsl(228, 56%, 26%);
+}
+
+.icon {
+    background-color: hsl(229, 57%, 11%);
+}
+
 @media screen and (min-width: 1440px) {
     #data-storage-component {
         background: url("../img/bg-desktop.svg") no-repeat right;
@@ -11,7 +19,6 @@ body {
     }
     
     #blocco-n1 {
-        background-color: hsl(228, 56%, 26%);
         padding: 40px;
         border-radius: 10px 80px 10px 10px;
         box-shadow: 7px 7px 11px 0px hsl(229, 57%, 11%);
@@ -22,7 +29,6 @@ body {
     }
     
     .icon {
-        background-color: hsl(229, 57%, 11%);
         text-align: center;
         float: left;
         margin-right: 15px;
@@ -70,4 +76,8 @@ body {
         font-size: 30px;
         color: hsl(229, 57%, 11%);
     }
+}
+
+@media screen and (min-width: 375px) {
+    
 }
