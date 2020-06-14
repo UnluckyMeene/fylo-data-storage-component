@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Untitled Document</title>
+        <title>Fylo data storage component</title>
         <!-- Bootstrap -->
         <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
@@ -22,8 +22,8 @@
         <main>
             <section id="data-storage-component" class="vh-100">
                 <div class="container">
-                    <div class="row align-items-center vh-100 justify-content-center">
-                        <div class="col-12 col-lg-4" id="blocco-n1">
+                    <div class="row vh-100 justify-content-center">
+                        <div class="col-10 col-lg-4 align-self-end align-self-lg-center" id="blocco-n1">
                             <img src="images/logo.svg" alt="Fylo">
                             <div id="icon-container">
                                 <div class="icon">
@@ -37,13 +37,13 @@
                                     <img src="images/icon-upload.svg" alt="Upload">
                                 </div>
                             </div>
-                            
                         </div>
 
-                        <div class="col-12 col-lg-6 text-white" id="blocco-n2">
+                        <div class="col-10 col-lg-6 text-white align-self-start align-self-lg-center" id="blocco-n2">
                             <span>You've used <strong>815 GB</strong> of your storage</span>
-                            <div class="message pt-lg-3 text-center">
+                            <div class="message text-center mx-auto ">
                                 <span><strong>815</strong> GB LEFT</span>
+                                <div id="triangolino"></div>
                             </div>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 81.5%;" aria-valuenow="81.5" aria-valuemin="0" aria-valuemax="1000"></div>
